@@ -12,5 +12,5 @@ def send_email_task():
 	sleep(5)
 	send_mail('Celery Task',
 		'This is body!',
-		'bi50_n.k.gaiydenko@mpt.ru',
-		['gaiydenko.develop@gmail.com'])
+		'from',
+		['to'])

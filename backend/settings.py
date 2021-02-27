@@ -121,7 +121,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-CELERY_BROKER_URL = 'redis://:p96b9278496abd963843d600356c3669ddfc4340a2b926d070f768ce0171b7d4d@ec2-108-128-98-183.eu-west-1.compute.amazonaws.com:27769'
+CELERY_BROKER_URL = 'redis url'
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
 
@@ -129,5 +129,5 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'bi50_n.k.gaiydenko@mpt.ru'
-EMAIL_HOST_PASSWORD = 'Nikita20022002mpt'
+EMAIL_HOST_USER = 'email username'
+EMAIL_HOST_PASSWORD = 'email password'
